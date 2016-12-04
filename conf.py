@@ -18,15 +18,15 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "Kyle M. Douglass"  # (translatable)
-BLOG_TITLE = "The New Book of Optics"  # (translatable)
+BLOG_TITLE = "The eBook of Optics"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://kmdouglass.github.io/ebo/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
 BLOG_EMAIL = "kyle.m.douglass@gmail.com"
-BLOG_DESCRIPTION = "The science and art of optics."  # (translatable)
+BLOG_DESCRIPTION = "The science and art of optics and imaging."  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -136,7 +136,7 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
         ("/categories/", "Tags"),
-        ("/pages/about-the-new-book-of-optics", "About"),
+        ("/pages/about-the-ebook-of-optics", "About"),
         ("/rss.xml", "RSS feed"),
     ),
 }
@@ -884,7 +884,7 @@ COMMENT_SYSTEM = "disqus"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "the-ebook-of-optics"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
