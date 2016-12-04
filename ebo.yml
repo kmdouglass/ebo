@@ -1,4 +1,4 @@
-name: nbo
+name: ebo
 channels: !!python/tuple
 - defaults
 - conda-forge
@@ -124,5 +124,5 @@ dependencies:
   - webassets==0.12.0
   - ws4py==0.3.5
   - yapsy==1.11.223
-prefix: /home/kmdouglass/anaconda3/envs/nbo
+prefix: /home/kmdouglass/anaconda3/envs/ebo
 

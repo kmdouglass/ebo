@@ -1,5 +1,5 @@
-.. title: About the New Book of Optics
-.. slug: about-the-new-book-of-optics
+.. title: About the eBook of Optics
+.. slug: about-the-ebook-of-optics
 .. date: 2016-11-13 09:42:31 UTC+01:00
 .. tags: 
 .. category: 
@@ -7,7 +7,7 @@
 .. description: 
 .. type: text
 
-Hello there! My name is Kyle M. Douglass and I created this blog to
+Hello there! My name is `Kyle M. Douglass`_ and I created this site to
 educate others about optics, the science and art of light.
 
 Why would I be so interested in such a technical and academic topic
@@ -30,6 +30,8 @@ that I would write a blog about it? There are actually two reasons:
    classroom. These new tools for teaching are a great idea; why not
    incorporate them into the optics curriculum?
 
+.. _`Kyle M. Douglass`: http://kmdouglass.github.io
+
 Code-based Learning
 ===================
 
@@ -38,36 +40,36 @@ engineer should have, from electrical engineers to biologists and
 psychologists. In this blog you will find that I make heavy use of
 code examples. Nearly all of this code is written in `Python`_, a very
 easy to learn and powerful programming language used by both amateurs
-and professionals across the globe. You can download and run each blog
-post yourself to conduct your own numerical experiments in optics.
+and professionals across the globe. You can download and run each
+computational blog post yourself to conduct your own numerical
+experiments in optics.
 
 The easiest way to get Python and its scientific libraries is to use a
 package manager like Anaconda. Simply go to `Anaconda's downloads
 page`_ and download the installer **for Python 3 or greater**. After
-installing Anaconda, **download the Anaconda environment (TODO!!!)**
+installing Anaconda, download the Anaconda environment file `ebo.yml`_
 that I use for this blog. Install the environment by opening the
 Anaconda Prompt (on Windows) or a terminal window (on Linux and Mac)
 and typing::
 
-  conda env create -f nbo.yml
+  conda env create -f ebo.yml
 
 *Note that you will need to navigate to the directory that contains
-the file nbo.yml.* Every time you want to run the code examples,
+the file ebo.yml.* Every time you want to run the code examples,
 activate the environment by typing::
 
-  activate nbo
+  activate ebo
 
 on Windows or::
 
-  source activate nbo
+  source activate ebo
 
-on Linux/Mac. Finally, the individual blog posts may be downloaded
-from this site's GitHub repository **(TODO!!!)**. The posts are
-written in interactive `Jupyter notebooks`_. If you installed my
-Anaconda environment, then you already have the Jupyter notebook
-server installed. To start Jupyter, activate the *nbo* environment as
-described above, navigate to the folder where you downloaded the
-notebooks, and type::
+on Linux/Mac. Finally, the individual posts may be downloaded from
+this site's `GitHub repository`_. The posts are written in interactive
+`Jupyter notebooks`_. If you installed my Anaconda environment, then
+you already have the Jupyter notebook server installed. To start
+Jupyter, activate the *ebo* environment as described above, navigate
+to the folder where you downloaded the notebooks, and type::
 
   jupyter notebook
 
@@ -77,6 +79,8 @@ notebooks.*
 
 .. _Python: https://www.python.org/
 .. _Anaconda's downloads page: https://www.continuum.io/downloads
+.. _ebo.yml: https://github.com/kmdouglass/ebo/blob/master/files/ebo.yml
+.. _GitHub repository: https://github.com/kmdouglass/ebo/
 .. _Jupyter notebooks: http://jupyter.org/
 .. _Click here: https://www.youtube.com/watch?v=HW29067qVWk
 
@@ -86,7 +90,7 @@ Feedback
 I am not immune to making mistakes :) If you find an error or bug in
 these posts, please e-mail me at kyle.m.douglass_at_gmail.com
 (replacing the _at_ with a @ symbol) and clearly state what the error
-is and in which post it is located. I and the other readers would
+is and in which page it is located. I and the other readers would
 greatly appreciate it. You can also add to the discussion in the
 comments section below each post.
 

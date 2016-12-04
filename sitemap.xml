@@ -6,27 +6,39 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>https://example.com/</loc>
+  <loc>https://kmdouglass.github.io/ebo/</loc>
+  <lastmod>2016-12-04T11:03:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://kmdouglass.github.io/ebo/2016/</loc>
+  <lastmod>2016-11-13T12:00:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://kmdouglass.github.io/ebo/archive.html</loc>
+  <lastmod>2016-12-04T11:20:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://kmdouglass.github.io/ebo/categories/</loc>
   <lastmod>2016-11-13T10:02:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/archive.html</loc>
-  <lastmod>2016-11-13T10:04:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/categories/</loc>
+  <loc>https://kmdouglass.github.io/ebo/galleries/</loc>
   <lastmod>2016-11-13T10:02:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/galleries/</loc>
+  <loc>https://kmdouglass.github.io/ebo/listings/</loc>
   <lastmod>2016-11-13T10:02:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/listings/</loc>
+  <loc>https://kmdouglass.github.io/ebo/pages/about-the-ebook-of-optics/</loc>
+  <lastmod>2016-12-04T11:01:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://kmdouglass.github.io/ebo/pages/about-the-new-book-of-optics/</loc>
   <lastmod>2016-11-13T10:02:00Z</lastmod>
  </url>
  <url>
-  <loc>https://example.com/pages/about-the-new-book-of-optics/</loc>
-  <lastmod>2016-11-13T10:02:00Z</lastmod>
+  <loc>https://kmdouglass.github.io/ebo/posts/simulating-simple-pupil-functions/</loc>
+  <lastmod>2016-11-13T12:00:00Z</lastmod>
  </url>
 </urlset>
